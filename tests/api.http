@@ -1,0 +1,25 @@
+POST http://127.0.0.1:8001/accounts/token/
+Content-Type: application/json
+
+{
+  "username": "saeed",
+  "password": "Sn5298368"
+}
+
+###
+
+GET http://127.0.0.1:8001/accounts/users/?search=adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAzODY0NjI4LCJpYXQiOjE3MDM3NzgyMjgsImp0aSI6IjI4YzY2ZDEyMGFlYTRiZDhhNjFlYzBkNGFkNDRlMjE1IiwidXNlcl9pZCI6MX0.UgdNVpYAceMIqHXzIFviht1pi9D6vSzfsZQxqQjf8Ac
+
+###
+
+WEBSOCKET ws://127.0.0.1:8001/ws/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA0NTQwODMwLCJpYXQiOjE3MDQ0NTQ0MzAsImp0aSI6IjgwMjRlOGRmMTdlMTRiOTVhYzMzMjEwMTcyMTlkMmM0IiwidXNlcl9pZCI6Mn0.YWL966jIlNo9WmRWOA7iclihxTuQ9nhSE0KNZ3txvYk
+
+{
+  "to": 1,
+  "msg": "asdsfsdfsd"
+}
+
+###
